@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_content_temoignages",
+  "info": {
+    "name": "Temoignage",
+    "icon": "sticky-note"
+  },
+  "options": {},
+  "attributes": {
+    "Temoignage": {
+      "type": "richtext"
+    },
+    "Author": {
+      "type": "string"
+    }
+  }
+}

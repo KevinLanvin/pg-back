@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_content_service_examples",
+  "info": {
+    "name": "ServiceExample",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

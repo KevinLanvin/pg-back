@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_content_sections",
+  "info": {
+    "name": "Section",
+    "icon": "pager"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Paragraph": {
+      "type": "text"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Link": {
+      "type": "string"
+    },
+    "LinkLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "Pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "MainTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.h1"
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section"
+    },
+    "QuandConsulter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section"
+    },
+    "QuiSuisJe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.service"
+    },
+    "ServicesTitle": {
+      "type": "string"
+    },
+    "Temoignages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.temoignage"
+    },
+    "BlogTitle": {
+      "type": "string",
+      "default": "Retrouvez les derniers articles"
+    },
+    "BlogCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.card"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_content_services",
+  "info": {
+    "name": "Service",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Examples": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.service-example"
+    }
+  }
+}
