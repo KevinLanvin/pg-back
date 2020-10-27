@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "page-accueil",
+  "info": {
+    "name": "Page Accueil"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "MainTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.h1"
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section"
+    },
+    "QuandConsulter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section"
+    },
+    "QuiSuisJe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section"
+    }
+  }
+}

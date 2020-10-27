@@ -2,15 +2,18 @@
   "collectionName": "components_page_content_temoignages",
   "info": {
     "name": "Temoignage",
-    "icon": "sticky-note"
+    "icon": "sticky-note",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Temoignage": {
-      "type": "richtext"
+    "temoignage": {
+      "type": "richtext",
+      "required": true
     },
-    "Author": {
-      "type": "string"
+    "author": {
+      "type": "string",
+      "required": true
     }
   }
 }

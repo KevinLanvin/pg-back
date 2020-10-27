@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/section-tarifs",
+      "handler": "section-tarifs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/section-tarifs",
+      "handler": "section-tarifs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/section-tarifs",
+      "handler": "section-tarifs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_content_formations",
+  "info": {
+    "name": "Formation",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

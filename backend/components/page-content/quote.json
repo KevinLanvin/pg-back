@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_content_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

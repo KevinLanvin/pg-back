@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "section-tarifs",
+  "info": {
+    "name": "Section Tarifs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Tarifs",
+      "required": true,
+      "unique": true
+    },
+    "tarifs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.tarif"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.link",
+      "required": true
+    }
+  }
+}

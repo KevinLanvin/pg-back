@@ -2,17 +2,16 @@
   "collectionName": "components_page_content_sections",
   "info": {
     "name": "Section",
-    "icon": "pager"
+    "icon": "pager",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "Paragraph": {
-      "type": "text"
-    },
-    "Image": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -21,13 +20,21 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
-    "Link": {
-      "type": "string"
+    "paragraph": {
+      "type": "richtext",
+      "required": true
     },
-    "LinkLabel": {
-      "type": "string"
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.link"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.quote"
     }
   }
 }

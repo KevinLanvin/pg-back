@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_content_breadcrumbs",
+  "info": {
+    "name": "Breadcrumbs",
+    "icon": "chevron-right"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.link",
+      "required": true
+    }
+  }
+}

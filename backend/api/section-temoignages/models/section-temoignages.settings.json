@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "section-temoignages",
+  "info": {
+    "name": "Section Temoignages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Témoignages"
+    },
+    "temoignagesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.temoignage",
+      "required": true
+    }
+  }
+}

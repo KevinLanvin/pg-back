@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_cards",
+  "info": {
+    "name": "Contact Card"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "default": "Prise de Rdv"
+    },
+    "phone": {
+      "type": "string",
+      "default": "06.32.80.35.82",
+      "required": true,
+      "unique": true
+    },
+    "email": {
+      "type": "string",
+      "default": "contact@pauline-gorlier.com",
+      "required": true,
+      "unique": true
+    },
+    "address": {
+      "type": "richtext",
+      "default": "Métropole Lilloise",
+      "required": true
+    },
+    "longitude": {
+      "type": "decimal",
+      "required": true
+    },
+    "latitude": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

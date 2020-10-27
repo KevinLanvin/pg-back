@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_content_tarifs",
+  "info": {
+    "name": "Tarif",
+    "icon": "euro-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "detail": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

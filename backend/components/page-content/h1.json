@@ -2,23 +2,25 @@
   "collectionName": "components_page_content_h1s",
   "info": {
     "name": "H1",
-    "icon": "heading"
+    "icon": "heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "Banner": {
+    "banner": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

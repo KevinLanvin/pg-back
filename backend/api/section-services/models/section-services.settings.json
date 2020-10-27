@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "section-services",
+  "info": {
+    "name": "Section Services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Mes services",
+      "required": true
+    },
+    "servicesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.service",
+      "required": true
+    }
+  }
+}

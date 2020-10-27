@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "liste_des_problematiques",
+  "info": {
+    "name": "Section Problematiques"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Liste des problématiques",
+      "required": true,
+      "unique": true
+    },
+    "paragraph": {
+      "type": "richtext",
+      "default": "Toute personne ayant ce type de problématiques peut venir me consulter : problématiques psychologiques (stress, dépression, fatigue chronique, insomnie, arrêt du tabac, traumatisme émotionnel), douleurs (mal de dos, tendinite, entorse, sciatique, arthrite, arthrose, acouphènes...), dermatoses (eczéma, psoriasis, herpès, acné...), problèmes gynécologiques (règles douloureuses, abondantes ou irrégulières, cystite, syndrome post-ménopausique...), problèmes respiratoires (asthme, bronchite...)... et enfin en cas de besoin d’un renforcement du système immunitaire ou d’un rééquilibrage énergétique.",
+      "required": true
+    },
+    "list": {
+      "type": "richtext",
+      "default": "Problématiques psychologiques Douleurs physiques Dermatoses Problèmes gynécologiques Problèmes respiratoires Rééquilibrage énergétique Renforcement du système immunitaire",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "page-qui-suis-je",
+  "info": {
+    "name": "Page Qui suis-je"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Breadcrumbs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.breadcrumbs",
+      "required": true
+    },
+    "Introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.introduction",
+      "required": true
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-content.section",
+      "required": true
+    }
+  }
+}
