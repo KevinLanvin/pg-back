@@ -92,7 +92,6 @@ lcov.info
 pids
 logs
 results
-my-project/node_modules/
 node_modules/
 .node_history
 
